@@ -15,15 +15,18 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 @SpringBootApplication
-public class Application extends SpringBootServletInitializer {
+public class Application {
+/*
+extends SpringBootServletInitializer {
 
 	
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(Application.class);
-    }
+    }  
+*/
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
     	System.out.println("Inicia App");
         SpringApplication.run(Application.class, args);
     }
